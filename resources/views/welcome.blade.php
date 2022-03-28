@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>Seminarski rad</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -25,10 +25,10 @@ h1 {letter-spacing: 6px}
   
   <div class="w3-padding-32">
     <div class="w3-bar w3-border">
+      <a href="/" class="w3-bar-item w3-button">Home</a>
+      <a href="/zadatci" class="w3-bar-item w3-button">Zadatci</a>
+      <a href="https://github.com/BlueJeansX/mp-cms2.git" target="_blank" class="w3-bar-item w3-button w3-light-grey">GitHub</a>
       <a href="/admin" class="w3-bar-item w3-button">CMS</a>
-      <a href="https://github.com/BlueJeansX/mp-cms2.git" class="w3-bar-item w3-button w3-light-grey">GitHub</a>
-      <a href="#" class="w3-bar-item w3-button">Dokumentacija</a>
-      <a href="#" class="w3-bar-item w3-button w3-hide-small">Kontakt</a>
     </div>
   </div>
 </header>
@@ -40,13 +40,7 @@ h1 {letter-spacing: 6px}
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">Laravel</a></p>
+  <p>Powered by <a href="https://laravel.com/" target="_blank" class="w3-hover-text-green">Laravel</a></p>
 </footer>
 
 </body>
